@@ -10,5 +10,4 @@ install:
  # - tests
   
 script:
-  - python ./test
   - python ./tests
