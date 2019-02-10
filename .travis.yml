@@ -15,7 +15,7 @@ install:
 
 # Run the unit test
 script:
-  - coverage run account_test_users.py
+  - run ./tests/account_test_users.py
 
 # Push the results back to codecov
 after_success:
